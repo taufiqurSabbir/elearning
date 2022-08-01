@@ -1,0 +1,244 @@
+/* COMMON CSS */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/* COMMON CSS */
+
+.profile_info {
+    width: 200px;
+    height: 500px;
+    background-color: #5397B3;
+    border-radius: 25px;
+}
+
+.profile_info {
+    margin-top: 50px;
+    margin-left: 150px;
+    position: inherit;
+}
+
+.profile_info .profilepic {
+    width: 120px;
+    max-height: 120px;
+    display: inline-block;
+    margin: 76px 25px 50px 25px;
+    border-radius: 30px;
+}
+
+.profile_info p {
+    margin: 0px 20px;
+}
+
+.profile_info .logout {
+    width: 120px;
+    height: 30px;
+    padding-top: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #F35F5F;
+    border-radius: 15px;
+    position: relative;
+    transform: translate(-50%);
+    top: 15%;
+    left: 50%;
+}
+
+
+/* profile ends */
+
+.statheading {
+    margin-top: 50px;
+    width: 100%;
+    height: 75px;
+    background-color: #5397B3;
+    border-radius: 45px;
+}
+
+.heading {
+    width: 100%;
+    height: 40%;
+}
+
+.heading h2 {
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.overallprogress,
+.day {
+    background-color: azure;
+    height: 100px;
+    margin: 20px 10px;
+}
+
+.histogram {
+    background-color: azure;
+    height: 250px;
+    margin: 20px 10px;
+}
+
+.histogram .heading {
+    height: 20%;
+}
+
+.overallprogress .heading,
+.day .heading,
+.histogram .heading {
+    background-color: #F35F5F;
+}
+
+.overallprogress .bar {
+    margin: 20px 5px;
+    border-radius: 25px;
+    border: #fff;
+    background-color: #5397B3;
+}
+
+.progress.bar {
+
+    margin-left: 0%;
+    background-color: aquamarine;
+}
+
+.day h6 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.histogram .coursebar {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.histogram .coursebar .progressbar {
+    background-color: aquamarine;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.badges,
+.certificates {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: azure;
+}
+
+.skills {
+    width: 100%;
+    height: 220px;
+    background-color: azure;
+}
+
+.badges .heading,
+.certificates .heading {
+    background-color: #F35F5F;
+}
+
+.skills .heading {
+    background-color: #F35F5F;
+    height: 20%;
+}
+
+.dropshadow {
+    -webkit-box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.87);
+    box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.87);
+}
+
+
+/* HEADER CSS */
+
+
+/* HEADER CSS */
+
+
+/* MENUBAR CSS */
+
+
+/* MENUBAR CSS */
+
+
+/* BANNER CSS */
+
+
+/* BANNER CSS */
+
+
+/* ABOUT CSS */
+
+
+/* ABOUT CSS */
+
+
+/* PORFOLIO CSS */
+
+
+/* PORFOLIO CSS */
+
+
+/* TEAM CSS */
+
+
+/* TEAM CSS */
+
+
+/* GALLERY CSS */
+
+
+/* GALLERY CSS */
+
+
+/* TESIMONIAL CSS */
+
+
+/* TESIMONIAL CSS */
+
+
+/* FOOTER CSS */
+
+
+/* FOOTER CSS */

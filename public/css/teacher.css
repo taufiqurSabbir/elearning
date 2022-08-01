@@ -1,0 +1,297 @@
+/* COMMON CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* COMMON CSS */
+
+/* HEADER CSS */
+
+/* HEADER CSS */
+
+/* MENUBAR CSS */
+
+
+
+.profile_info {
+    width: 200px;
+    height: 500px;
+    background-color: #768BAB;
+    border-radius: 25px;
+
+}
+
+.profile_info {
+    margin-top: 50px;
+    position: absolute;
+}
+
+.profile_info .profilepic {
+    display: inline-block;
+    height: 150px;
+    margin: 76px 25px 50px 25px;
+
+}
+
+.profile_info p {
+    margin: 0px 20px;
+}
+
+.profile_info .logout {
+    width: 120px;
+    height: 30px;
+    padding-top: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #F35F5F;
+    border-radius: 15px;
+    position: relative;
+    transform: translate(-50%);
+    top: 15%;
+    left: 50%;
+}
+
+/* profile ends */
+
+.box1,
+.box2,
+.box3 {
+    margin: 50px 0px 50px 0px;
+    background-color: #F35F5F;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.coursetotal h6,
+.soldtoday h6,
+.totalsale h6 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 12.5%;
+}
+
+.coursetotal p,
+.soldtoday p,
+.totalsale p {
+
+    text-align: center;
+}
+
+/* Stat box ends */
+
+.easyaccess,
+.studentperforma {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.studentperforma h4 {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.easyaccess h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+.modaldiv>.btn {
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    background-color: #0066FF;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.inline-Course {
+    display: inline-block;
+    width: 27%;
+    margin: 5px 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #F35F5F;
+}
+
+.inline-Course img {
+    height: 20px;
+}
+
+.student_info {
+    margin-top: 10px;
+}
+
+.student_info img {
+    display: block;
+    margin-left: 20px;
+    height: 30px;
+    float: left;
+}
+
+.student_info h6 {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.student_info p {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 45%;
+
+}
+
+/* Modal body starts */
+.videoupload {
+    height: 200px;
+    width: 100%;
+    background-color: #D9D9D9;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .30);
+}
+
+.videoupload i {
+    text-align: center;
+    font-size: 60px;
+    color: #F35F5F;
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.videoupload h4 {
+    font-size: 16px;
+}
+
+/* Modal body ends */
+.FAQ {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.FAQ h5 {
+
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.student_FAQ img {
+    display: block;
+    margin-left: 20px;
+    height: 30px;
+    float: left;
+}
+
+.student_FAQ h6 {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.student_FAQ p {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.bbtn {
+    display: inline-block;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+
+.courseperforma {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 110px;
+    overflow: hidden;
+}
+
+.courseperforma h5 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.courseinfo img,
+.courseinfo h6,
+.courseinfo p {
+    display: inline-block;
+
+}
+
+.courseinfo img {
+    height: 50px;
+    margin: 0px 15px 20px 20px;
+}
+
+.courseinfo h6 {
+    margin-right: 20px;
+
+}
+
+/* Body ends */

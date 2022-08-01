@@ -1,0 +1,172 @@
+/* COMMON CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* COMMON CSS */
+
+#HEADER .thumbnail{
+    width: 100%;
+    height: 500px;
+    margin: 80px 30px 50px 0px ;
+    background-color: aqua;
+    border-radius: 25px;
+    
+}
+#HEADER .thumbnail img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: -2px 6px 18px -6px rgba(0,0,0,0.77);
+    -webkit-box-shadow: -2px 6px 18px -6px rgba(0,0,0,0.77);
+    -moz-box-shadow: -2px 6px 18px -6px rgba(0,0,0,0.77);
+}
+#HEADER .moon{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 200px auto 10px auto ;
+    background-image: url(../images/solaiman.png);
+    background-position: center;
+    background-size: cover;
+}
+#HEADER .headintructorinfo{
+    text-align: center;
+    
+
+}
+.Enroll{
+    float: right;
+}
+.btn-primary{
+    background-color: #5397B3 ;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: bisque;
+
+}
+
+.btn-primary img {
+    display: inline-block;
+    width: 15px;
+}
+
+#courseinfo{
+    margin: 20px 30px 50px 0px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #F8F8F8;
+}
+#courseinfo h4{
+    margin: 35px 15px
+}
+#courseinfo p{
+    margin: 0px 0px 5px 15px;
+    height: 250px;
+    overflow: scroll;
+}
+#courseinfo p::-webkit-scrollbar{
+    background: none;
+    
+}
+#courseinfo .overflowbtn1{
+    float: right;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.accordion{
+ width:90%;
+ margin: 0 auto;
+ border-radius: 25px;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 25px;
+    
+}
+.accordion-button{
+    border-radius: 25px;
+    background-color: #D9D9D9;
+}
+.accordion-button.collapsed {
+    color: black;
+    background: #D9D9D9;
+}
+.accordion-body ul li > .col{
+    float: right;
+    text-align: right;
+
+}
+.modulepart{
+    height:350px;
+    overflow-x: scroll;
+    
+}
+.modulepart::-webkit-scrollbar-corner{
+    background: none;
+    
+}
+.modulepart::-webkit-scrollbar{
+    background: none;
+    
+}
+#otherinstructor .moon1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    margin: 100px auto 10px auto ;
+    background-image: url(../images/profile.png);
+    background-position: center;
+    background-size: cover;
+}
+#otherinstructor .moon2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    margin: 100px auto 10px auto ;
+    background-image: url(../images/studentprofile.png);
+    background-position: center;
+    background-size: cover;
+}
+.otherinfo{
+    margin-top: 150px;
+}
+/* FOOTER CSS */
+
+/* FOOTER CSS */

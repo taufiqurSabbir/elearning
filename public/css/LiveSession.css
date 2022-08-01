@@ -1,0 +1,206 @@
+/* COMMON CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* COMMON CSS */
+.livesession{
+    margin-bottom: 30px;
+}
+.search{
+    width: 250px;
+    height: 32px;
+    background-color: whitesmoke;
+    float: right;
+    margin: 50px 0px;
+}
+.search input{
+    display: Inline-block;
+    margin: 1px 2px;
+    color: rgba(0, 0, 0, 0.15);
+}
+.search i{
+    display: inline-block ;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.rec{
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 25px;
+}
+.recImage{
+    width: 480px;
+    height: 300px;
+    margin: 25px 25px;
+}
+.recImage img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.livesession h4{
+    padding: 25px 30px;
+}
+.info{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.clr{
+    clear: both;
+}
+.moon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../images/solaiman.png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-right:50px ;
+
+}
+p{
+    margin-left: 20px;
+}
+.name{
+    margin: 100px 20px;
+    float: left;
+}
+.box-menu{
+    width: 250px;
+    height:600px;
+    position: fixed;
+    left: 8%;
+    top: 10%;
+}
+.accordion-body div{
+    margin-left: 0px;
+}
+/* messagingbox */
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.messagingbox{
+    width: 350px;
+    height:300px;
+    background-color: whitesmoke;
+    position: fixed;
+    right: 2%;
+    bottom: 0%;
+    box-shadow: 0px -3px 13px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -3px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -3px 13px -1px rgba(0,0,0,0.75);
+    animation: myAnim 1.75s ease 0s 1 normal forwards;
+    position: absolute;
+}
+.messagingbox .moon{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/profile.png);
+    margin-top: 8px;
+    margin-left: 25px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-right: 20px;
+    
+}
+.messagingbox .header{
+    width: 100%;
+    height: 60px;
+    border-radius: 0px 0px 25px 12px;
+    background-color: rgb(92, 170, 247);
+
+}
+.messagingbox .text{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 87%;
+    left: 0;
+    background-color: aqua;
+
+}
+.messagingbox .text input{
+    width: 90%;
+    height: 40px;
+}
+/* messagingbox */
+
+
+/* HEADER CSS */
+
+/* HEADER CSS */
+
+/* MENUBAR CSS */
+
+/* MENUBAR CSS */
+
+/* BANNER CSS */
+
+/* BANNER CSS */
+
+/* ABOUT CSS */
+
+/* ABOUT CSS */
+
+/* PORFOLIO CSS */
+
+/* PORFOLIO CSS */
+
+/* TEAM CSS */
+
+/* TEAM CSS */
+
+/* GALLERY CSS */
+
+/* GALLERY CSS */
+
+/* TESIMONIAL CSS */
+
+/* TESIMONIAL CSS */
+
+/* FOOTER CSS */
+
+/* FOOTER CSS */

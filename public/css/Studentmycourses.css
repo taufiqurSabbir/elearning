@@ -1,0 +1,107 @@
+/* COMMON CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* COMMON CSS */
+.heading {
+    margin-top: 50px;
+}
+
+.courses {
+    background-color: aquamarine;
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.thumbnail {
+    float: left;
+    border-radius: 12px;
+    width: 350px;
+    height: 200px;
+    background-color: black;
+}
+
+.courses .thumbnail {
+    margin: 10px 20px;
+
+}
+
+.slider {
+    align-items: center;
+    width: 100%;
+    height: 360px;
+    margin: 5px 0px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slider .slide .thumbnail {
+    margin: 10px 10px;
+
+}
+
+/* width */
+.slider::-webkit-scrollbar {
+    width: 5px;
+    height: 12px;
+}
+
+/* Track */
+.slider::-webkit-scrollbar-track {
+    background-color: none;
+    border-radius: 10px;
+}
+
+/* Handle */
+.slider::-webkit-scrollbar-thumb {
+    background: #5397B3;
+    border-radius: 10px;
+    
+}
+
+/* Handle on hover */
+.slider::-webkit-scrollbar-thumb:hover {
+    background: #0066FF;
+}
+
+/* FOOTER CSS */
+
+/* FOOTER CSS */

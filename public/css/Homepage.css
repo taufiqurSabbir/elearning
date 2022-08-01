@@ -1,0 +1,400 @@
+
+html{
+    font-size: 16px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.row{
+    justify-content: center !important;
+}
+::-webkit-scrollbar {
+    transform: translate(-50%, -50%);
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+    margin-block:35px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(139, 138, 138, 0.766);
+    border-radius: 100px;
+    margin-block:15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(217, 13, 13);
+
+}
+
+
+:root{
+
+    --main_color:#E1F0FD;
+    --second_color:#768BAB;
+    --third_opacity:rgba(72, 150, 240, 0.591);
+    --imp_redbtn:#F35F5F;
+}
+
+.heading h3{
+    margin-top: 8rem;
+    font-size: clamp(3rem, 0.5vw + 1rem , 6rem);
+    font-weight: bold;
+}
+/* COMMON CSS */
+
+.topspace{
+    margin-top: 4rem !important;
+}
+
+/* HEADER CSS */
+
+/* HEADER CSS */
+
+/* MENUBAR CSS */
+
+/* MENUBAR CSS */
+
+/* BANNER CSS */
+
+/* BANNER CSS */
+
+/* ABOUT CSS */
+#catagory_section .card .card-title{
+    font-size: clamp(1.5rem, .5vw + 1rem, 3rem);
+}
+#catagory_section .card .card-text{
+    font-size: clamp(1rem, .5vw + 1rem, 2rem);
+}
+
+#catagory_section .card {
+    width: 18rem;
+    padding: 0rem 2rem;
+    border-radius: 2rem;
+}
+#catagory_section .cat2{
+    border-radius: 1rem;
+    background-size:cover !important;
+    background-position:center !important;
+    width: 32rem;
+
+}
+#catagory_section .cat2 h6{
+    font-size: clamp(1.5rem, .5vw + 1rem, 3rem);
+    font-weight: bold;
+    margin: 2px;
+    display: inline-block;
+    padding: 1.25rem 1rem 0rem 1rem;
+    margin: 0 auto !important;
+}
+#catagory_section .cat2 .overlay{
+    background-color: rgba(0, 0, 0, 0.442);
+    border-radius: 1rem;
+    height: 100%;
+}
+#catagory_section .cat2 .bot img{
+    margin: 0 auto;
+    width:6rem;
+}
+#catagory_section .cat2 .bot{
+    float: right;
+}
+/* ABOUT CSS */
+
+/* PROMO CSS */
+#promo_section .col-lg-6.col-6{
+    display: flex;
+    justify-content: center;
+}
+
+#promo_section .botimg img{
+    width: 32rem;
+}
+#promo_section .text-content p{
+    line-height: 2;
+    max-width: 18rem;
+    text-align: center;
+    margin: 0 auto;
+}
+#promo_section .text-content h3{
+    max-width: 20rem;
+}
+#promo_section .text-content .bot{
+    display: inline-block;
+}
+#promo_section .text-content .bot img{
+    max-width: 3rem;
+}
+
+/* Carded-promo CSS */
+#Carded-promo .card{
+    width: 18rem;
+    border-radius: 2rem;
+}
+#Carded-promo .card .bot img{
+    width: 9rem;
+}
+#Carded-promo .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+#Carded-promo .card-body .card-title{
+    font-size: clamp(2rem, .5vw + 1rem, 4rem) ;
+}
+
+
+#Carded-promo .card-body .card-text{
+    font-size: clamp(1rem, .5vw + 1rem, 2rem)
+}
+/* Carded-promo CSS */
+
+/* poster_section CSS */
+.poster_section h3{
+    font-weight: bold; color: black; font-size: clamp(3rem, .5vw, 6rem);
+}
+.poster_section h4{
+    font-weight: bold; color: black; font-size: clamp(1.5rem, .5vw, 3rem);
+
+}
+/* poster_section CSS */
+
+/* newcourses CSS */
+#newcourses .card{
+    width: 25rem;
+
+}
+
+/* newcourses CSS */
+/* GALLERY CSS */
+
+/* TESIMONIAL CSS */
+#testimonial_section .carousel{
+    height: 300rem !important;
+    background-color: #F35F5F ;
+
+}
+#testimonial_section .card{
+    width: 25rem;
+}
+
+.row-slide{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.carousel-inner .carousel-item {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    transition: -webkit-transform 3s ease;
+    transition: transform 3s ease;
+    transition: transform 3s ease, -webkit-transform 3s ease;
+}
+
+
+/* TESIMONIAL CSS */
+
+/* FOOTER CSS */
+footer {
+    background-color: var(--main_color);
+    padding-top: 2.5rem;
+}
+
+.powered {
+    margin: 2rem;
+}
+
+.powered img {
+    width: 12rem;
+    border-radius: 2.5rem;
+    background-color: white;
+}
+
+footer .foothead {
+
+    margin: 7rem 0 2rem 0;
+}
+
+footer .apppic img {
+    width: 3.5rem;
+    display: inline-block;
+}
+
+footer .socials_links i {
+    color: black;
+    font-size: 4rem;
+}
+
+footer p {
+    margin-bottom: 0rem;
+}
+/* FOOTER CSS */
+
+/* RESPONSIVE CSS */
+
+/* XS portarit */
+
+@media (max-width: 575.98px) {
+    html{
+        font-size: 8px;
+    }
+    .solaimon img{
+        width: 25rem !important;
+    }
+    #catagory_section{
+        margin-top: 2rem;
+    }
+    #catagory_section .card {
+        margin-top: 1rem !important;
+
+    }
+    #catagory_section .col-lg-3.col-6{
+        display: flex;
+        justify-content: center;
+    }
+    #promo_section .botimg img{
+        width: 18rem;
+    }
+    #Carded-promo .card{
+        width: 15rem;
+        border-radius: 2rem;
+    }
+    #Carded-promo .card .bot img{
+        width: 6rem;
+    }
+    #Carded-promo .card-body .card-title{
+        font-size: clamp(1.75rem, .5vw + 1rem, 3.75rem) ;
+    }
+
+
+    #Carded-promo .card-body .card-text{
+        font-size: clamp(.5rem, .5vw + 1rem, 1rem)
+    }
+    #newcourses .col-lg-6.col-md-6.col-sm-6.col-12{
+        justify-content: center !important;
+    }
+    .poster_section .col-lg-6.col-md-6.col-sm-6.col-12{
+        justify-content: center !important;
+        margin-top: 1rem !important;
+
+    }
+    #catagory_section .col-lg-6.col-12{
+        justify-content: center !important;
+
+    }
+    #testimonial_section{
+        display: none !important;
+    }
+    #testimonial_section .carousel-inner{
+        display: none !important;
+    }
+}
+
+/* S landscape */
+
+@media (min-width: 576px) and (max-width:767.98px) {
+    html{
+        font-size: 10px;
+    }
+    #catagory_section .col-lg-3.col-6{
+        display: flex;
+        justify-content: center;
+    }
+    .poster_section .col-lg-6.col-md-6.col-sm-6.col-12{
+        justify-content: center !important;
+        margin-top: 1rem !important;
+
+    }
+
+
+}
+
+/* M landscape */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html{
+        font-size: 12px;
+    }
+    #catagory_section .card {
+        margin-top: 0 !important;
+    }
+    #catagory_section .col-lg-3.col-6{
+        display: flex;
+        justify-content: center;
+    }
+    #promo_section .botimg img{
+        width: 28rem;
+    }
+    #catagory_section .col-lg-6.col-12{
+        justify-content: center !important;
+
+    }
+}
+
+/* L landscape LAptop */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html{
+        font-size: 12px;
+    }
+    .solaimon{
+        margin-top: 12rem !important;
+    }
+    #catagory_section .cat2 .bot img{
+
+        width:5rem;
+    }
+}
+
+
+/* XL */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+/* XXL */
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    html{
+        font-size: 16px;
+    }
+}

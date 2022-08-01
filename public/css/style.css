@@ -1,0 +1,71 @@
+/* COMMON CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* COMMON CSS */
+
+/* HEADER CSS */
+
+/* HEADER CSS */
+
+/* MENUBAR CSS */
+
+/* MENUBAR CSS */
+
+/* BANNER CSS */
+
+/* BANNER CSS */
+
+/* ABOUT CSS */
+
+/* ABOUT CSS */
+
+/* PORFOLIO CSS */
+
+/* PORFOLIO CSS */
+
+/* TEAM CSS */
+
+/* TEAM CSS */
+
+/* GALLERY CSS */
+
+/* GALLERY CSS */
+
+/* TESIMONIAL CSS */
+
+/* TESIMONIAL CSS */
+
+/* FOOTER CSS */
+
+/* FOOTER CSS */
